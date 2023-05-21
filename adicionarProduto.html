@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar novo Item</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login/login.css">
+    <link rel="stylesheet" href="./css/contato/contato.css">
+    <link rel="stylesheet" href="./css/rodape/rodape.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProduto.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="cabecalho__img" src="./Imagens/console.png" alt=""><h2 class="cabecalho__titulo"><span>Alura</span>Geek</h2>
+            <div class="cabecalho__pesquisa">
+                <input class="cabecalho__form" type="search" name="" id="">
+                <img class="cabecalho__pesq" src="./Imagens/pesquisar.png" alt="">
+            </div>
+            <div>
+                <a class="menu__administrador" href="#">Menu Administrador</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="novoProduto">
+            <h3 class="novo__titulo">Adicionar Novo Produto</h3>
+            <div class="novo__input">
+                <input class="campo__input" type="text" required>
+                <span >URL da Imagem</span>
+            </div>
+            <div class="novo__input">
+                <input class="campo__input" type="text" required>
+                <span >Categoria</span>
+            </div>
+            <div class="novo__input" >
+                <input class="campo__input" type="text" required>
+                <span>Nome do Produto</span>
+            </div>
+            <div class="novo__input">
+                <input class="campo__input" type="text" required>
+                <span>Preço do Produto</span>
+            </div>
+            <div class="novo__input">
+                <textarea class="campo__text" name="" id="" cols="30" rows="10" required ></textarea>
+                <span>Descrição do Produto</span>
+            </div>
+
+            <button class="novo__button" type="submit">Adicionar produto</button>
+        </section>
+
+    </main>
+    <section class="contato">
+        <div class="contato__imagem">
+            <div>
+                <img src="./Imagens/console.png" alt="console gamer">
+            </div>
+             <div>
+                <h2 class="contato__titulo"><span>Alura</span>Geek</h2>
+            </div>
+        </div>
+        <div>
+            <ul class="contato__lista">
+                <li class="contato__item">Quem Somos nós</li>
+                <li class="contato__item">Política de Privacidade</li>
+                <li class="contato__item">Programa Fidelidade</li>
+                <li class="contato__item">Nossas Lojas</li>
+                <li class="contato__item">Quero ser Franqueado</li>
+                <li class="contato__item">Anuncie Aqui</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="contato__form">Fale Conosco</h3>
+            <div class="contato__info">
+                <input class="contato__nome" type="text" name="" id="" required>
+                <span class="contato__span">Nome</span>
+            </div>
+            <div class="contato__info">
+                <textarea class="contato__text" name="" id="" cols="30" rows="10" requerid placeholder="Escreva sua mensagem..."></textarea>
+            </div>
+            <button class="contato__button" type="submit" >Enviar Mensagem</button>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="rodape__descircao">
+            <h5 class="rodape__titulo">Desenvolvido por Rafael do Carmo</h5>
+            <p class="rodape__texto">2023</p>
+        </div>
+    </footer>
+</body>
+</html>

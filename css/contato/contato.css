@@ -1,0 +1,114 @@
+.contato{
+    width: 100%;
+    background-color: #eaf2fd;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+
+.contato__imagem{
+    display: flex;
+}
+
+.contato__titulo{
+    color: #464646;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.contato__titulo span{
+    color: #2a7ae4;
+}
+
+.contato__item{
+    margin-top: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.contato__info{
+    margin-top: 30px;
+    position: relative;
+}
+
+.contato__nome{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contato__text{
+    width: 400px ;
+    height: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+
+}
+
+.contato__span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 5px ;
+    left: 14px ;
+    transition: 0.5s;
+    opacity: .5;
+}
+
+.contato__button{
+    width: 200px;
+    height: 40px;
+    background-color: #2a7ae4;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.contato__button:hover{
+    background-color: #2a7be4c7;
+}
+
+.contato__nome:focus ~ span{
+    transform: translateY(-30px);
+    font-size: 14px;
+    opacity:1;
+}
+
+.contato__nome:valid ~ span{
+    transform: translateY(-30px);
+    font-size: 14px;
+    opacity:1;
+}
+
+@media screen and (max-width: 768px) {
+    .contato{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato__form{
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .contato__button{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+}

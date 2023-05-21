@@ -1,0 +1,89 @@
+main {
+    padding-bottom: 20px;
+}
+.produtos__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 52px;
+}
+
+.produtos__site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    
+}
+
+
+.produtos__tipo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.produtos__verMais{
+    color: #2a7ae4;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+.produtos__imagem{
+    width: 176px;
+    height: 174px;
+}
+
+.produtos__box{
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
+
+
+.produtos__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.produtos__descricao{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #464646;
+    
+}
+
+.produtos__info{
+    color: #2a7ae4;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .produtos{
+        width: 100%;
+    }
+
+    .produtos__site{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+
+    .produtos__box{
+        padding-left:10px;
+    }
+}

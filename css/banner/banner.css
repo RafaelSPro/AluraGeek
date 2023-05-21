@@ -1,0 +1,42 @@
+.banner{
+    width: 100%;
+    height: 352px;
+    background-image: url(../../Imagens/Hero.png);
+    
+}
+
+.banner__button{
+    position: absolute;
+    top: 46%;
+    left: 10.5%;
+    background-color: #2A7AE4;
+    padding: 20px 20px 20px 25px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif ;
+} 
+
+@media screen and (max-width: 768px) {
+    .banner{
+        width: 100%;
+        height: 250px;
+        background-image: url(../../Imagens/Hero-pq.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        
+    }
+    
+
+    .banner__button{
+        display: none;
+        position: absolute;
+        top: 49%;
+        left: 10.3%;
+    }
+
+    
+
+    
+}

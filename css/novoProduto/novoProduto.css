@@ -1,0 +1,120 @@
+.novoProduto{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.novo__titulo{
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.novo__input{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.novo__input span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 5px ;
+    left: 14px ;
+    transition: 0.5s;
+    opacity: .5;
+}
+
+.campo__input{
+    width: 380px;
+    height: 45px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.campo__text{
+    width: 400px;
+    height: 80px;
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+    border-radius: 6px;
+}
+
+.novo__button{
+    width: 400px;
+    height: 50px;
+    background-color: #2a7ae4 ;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.campo__input:focus ~ span, 
+.campo__text:focus ~ span{
+    transform: translateY(-30px);
+    font-size: 14px;
+    opacity:1;
+}
+
+.campo__input:valid ~ span,
+.campo__text:valid ~ span{
+    transform: translateY(-30px);
+    font-size: 14px;
+    opacity:1;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        
+    }
+
+    .cabecalho{
+       display: flex;
+       margin: 0;
+       padding: 0;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       padding-left: 15px;
+       
+    }
+
+    .cabecalho__titulo{
+        padding: 0;
+        margin: 0;
+        padding-right: 10px;
+        
+        
+    }
+
+    .cabecalho__form{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+   
+
+    .cabecalho__pesq{
+        position: absolute;
+        top: 5%;
+        left: 83%;
+    }
+
+    .menu__administrador{
+        width: 60px;
+    }
+}
